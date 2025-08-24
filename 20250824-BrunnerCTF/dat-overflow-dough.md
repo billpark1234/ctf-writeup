@@ -137,7 +137,7 @@ Thankfully, the python script is already given and we just need to assign values
 In recipe.c, notice char recipe[16] holds 16 bytes worth of chars. This is overflow-able.\
 There are no other spaces reserved in this stack frame, so rbp should sit right next to the reserved 16 bytes space. (i think?) \
 \
-Find out the memory address of secret_dough_recipe function using gdb:
+Find the memory address of secret_dough_recipe function using gdb:
 ```shell
 $ gdb ./recipe
 ...
