@@ -13,6 +13,6 @@ We just got our hands on grandma's legendary cookie jar! What delicious treats c
 </figure>
 
 # Solution
-View the webpage without style and refresh. It raises an error in console. \\
-Reading the error message reveals that cookie contains a field named isPremium.\\
+View the webpage without style and refresh. It raises an error in console.\
+Reading the error message reveals that cookie contains a field named isPremium.\
 Go to the cookie and modify isPremium's value from false to true.
