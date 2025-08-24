@@ -40,7 +40,6 @@ Analyze the captured dump and see what the DoughBot was trying to say before it 
 # Solution
 Decode bootlog_flag from base64 to text
 ```shell
-$ echo "YnJ1bm5lcnttMXgzZF9zMWduYWxzXzRfc3
-VyZX0" | base64 -d
+$ echo "YnJ1bm5lcnttMXgzZF9zMWduYWxzXzRfc3VyZX0" | base64 -d
 brunner{m1x3d_s1gnals_4_sure}
 ```
