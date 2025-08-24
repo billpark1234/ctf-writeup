@@ -20,7 +20,7 @@ Note: The series continues in Caffeine (Root).
 
 # Solution
 Identify that this is some sort of injection exercise. Then, enter common injection commands to text fields to see if you see something. \
-It turns out that bash commands work. For example: 
+It turns out that bash commands work when checking order status. For example: 
 ```shell
 ; ls
 ```
