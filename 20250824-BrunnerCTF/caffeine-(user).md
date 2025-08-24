@@ -20,9 +20,9 @@ Note: The series continues in Caffeine (Root).
 
 # Solution
 Identify that this is some sort of injection exercise. Then, enter common injection commands to text fields to see if you see something. \
-It turns out that bash commands work. For example: \
+It turns out that bash commands work. For example: 
 ```shell
 ; ls
 ```
 displays files in some directory. \
-Then you just navigate through and find user.txt\
+Then you just navigate through and find user.txt
