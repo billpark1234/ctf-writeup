@@ -1,3 +1,14 @@
+# Description
+```
+Difficulty: Beginner
+Author: rvsmvs
+
+Our state-of-the-art smart mixer, DoughBot, crashed during a routine kneading cycle. Luckily, a technician was monitoring the device over UART and captured the memory output just before the reboot.
+
+Analyze the captured dump and see what the DoughBot was trying to say before it rebooted.
+```
+
+# Attachments
 ```
 [BOOT] DoughBot 1.2.4
 [INFO] Initializing sensor calibration...
@@ -23,4 +34,13 @@
 [WARN] ??>!!%0^ [RECV_ERR]  3499$
 [WARN] 0x00ff @@@ERROR@:~:~
 [BOOT] Safe Mode Active.
+```
+
+
+# Solution
+Decode bootlog_flag from base64 to text
+```shell
+$ echo "YnJ1bm5lcnttMXgzZF9zMWduYWxzXzRfc3
+VyZX0" | base64 -d
+brunner{m1x3d_s1gnals_4_sure}
 ```
